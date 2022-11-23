@@ -5,101 +5,100 @@ build_property.UsingMicrosoftNETSdkWeb = true
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
-build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = SchoolController
 build_property.RootNamespace = SchoolController
-build_property.ProjectDir = O:\Git\SchoolController\
+build_property.ProjectDir = /home/vulanhcuong/Documents/Git/SchoolController/
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = O:\Git\SchoolController
+build_property.MSBuildProjectDirectory = /home/vulanhcuong/Documents/Git/SchoolController
 build_property._RazorSourceGeneratorDebug = 
 
-[O:/Git/SchoolController/Views/GiangVien/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2lhbmdWaWVuXENyZWF0ZS5jc2h0bWw=
+[/home/vulanhcuong/Documents/Git/SchoolController/Views/GiangVien/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvR2lhbmdWaWVuL0NyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[O:/Git/SchoolController/Views/GiangVien/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2lhbmdWaWVuXERlbGV0ZS5jc2h0bWw=
+[/home/vulanhcuong/Documents/Git/SchoolController/Views/GiangVien/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvR2lhbmdWaWVuL0RlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[O:/Git/SchoolController/Views/GiangVien/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2lhbmdWaWVuXERldGFpbHMuY3NodG1s
+[/home/vulanhcuong/Documents/Git/SchoolController/Views/GiangVien/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvR2lhbmdWaWVuL0RldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[O:/Git/SchoolController/Views/GiangVien/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2lhbmdWaWVuXEVkaXQuY3NodG1s
+[/home/vulanhcuong/Documents/Git/SchoolController/Views/GiangVien/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvR2lhbmdWaWVuL0VkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[O:/Git/SchoolController/Views/GiangVien/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2lhbmdWaWVuXEluZGV4LmNzaHRtbA==
+[/home/vulanhcuong/Documents/Git/SchoolController/Views/GiangVien/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvR2lhbmdWaWVuL0luZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[O:/Git/SchoolController/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+[/home/vulanhcuong/Documents/Git/SchoolController/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[O:/Git/SchoolController/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+[/home/vulanhcuong/Documents/Git/SchoolController/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[O:/Git/SchoolController/Views/PhuHuynh/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGh1SHV5bmhcQ3JlYXRlLmNzaHRtbA==
+[/home/vulanhcuong/Documents/Git/SchoolController/Views/PhuHuynh/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGh1SHV5bmgvQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[O:/Git/SchoolController/Views/PhuHuynh/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGh1SHV5bmhcRGVsZXRlLmNzaHRtbA==
+[/home/vulanhcuong/Documents/Git/SchoolController/Views/PhuHuynh/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGh1SHV5bmgvRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[O:/Git/SchoolController/Views/PhuHuynh/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGh1SHV5bmhcRGV0YWlscy5jc2h0bWw=
+[/home/vulanhcuong/Documents/Git/SchoolController/Views/PhuHuynh/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGh1SHV5bmgvRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[O:/Git/SchoolController/Views/PhuHuynh/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGh1SHV5bmhcRWRpdC5jc2h0bWw=
+[/home/vulanhcuong/Documents/Git/SchoolController/Views/PhuHuynh/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGh1SHV5bmgvRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[O:/Git/SchoolController/Views/PhuHuynh/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGh1SHV5bmhcSW5kZXguY3NodG1s
+[/home/vulanhcuong/Documents/Git/SchoolController/Views/PhuHuynh/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGh1SHV5bmgvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[O:/Git/SchoolController/Views/Shared/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+[/home/vulanhcuong/Documents/Git/SchoolController/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[O:/Git/SchoolController/Views/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+[/home/vulanhcuong/Documents/Git/SchoolController/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[O:/Git/SchoolController/Views/SinhVien/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2luaFZpZW5cQ3JlYXRlLmNzaHRtbA==
+[/home/vulanhcuong/Documents/Git/SchoolController/Views/SinhVien/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2luaFZpZW4vQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[O:/Git/SchoolController/Views/SinhVien/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2luaFZpZW5cRGVsZXRlLmNzaHRtbA==
+[/home/vulanhcuong/Documents/Git/SchoolController/Views/SinhVien/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2luaFZpZW4vRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[O:/Git/SchoolController/Views/SinhVien/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2luaFZpZW5cRGV0YWlscy5jc2h0bWw=
+[/home/vulanhcuong/Documents/Git/SchoolController/Views/SinhVien/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2luaFZpZW4vRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[O:/Git/SchoolController/Views/SinhVien/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2luaFZpZW5cRWRpdC5jc2h0bWw=
+[/home/vulanhcuong/Documents/Git/SchoolController/Views/SinhVien/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2luaFZpZW4vRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[O:/Git/SchoolController/Views/SinhVien/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2luaFZpZW5cSW5kZXguY3NodG1s
+[/home/vulanhcuong/Documents/Git/SchoolController/Views/SinhVien/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2luaFZpZW4vSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[O:/Git/SchoolController/Views/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+[/home/vulanhcuong/Documents/Git/SchoolController/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[O:/Git/SchoolController/Views/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+[/home/vulanhcuong/Documents/Git/SchoolController/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[O:/Git/SchoolController/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-hxqc2km9ii
+[/home/vulanhcuong/Documents/Git/SchoolController/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-z0cck9t3fg

@@ -8,13 +8,26 @@
     ".NETCoreApp,Version=v6.0": {
       "SchoolController/1.0.0": {
         "dependencies": {
+          "JavaScriptEngineSwitcher.Extensions.MsDependencyInjection": "3.19.0",
+          "JavaScriptEngineSwitcher.V8": "3.20.7",
+          "Microsoft.ClearScript.V8.Native.linux-x64": "7.3.5",
+          "Microsoft.ClearScript.V8.Native.win-x64": "7.3.5",
           "Microsoft.EntityFrameworkCore": "7.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.0",
           "Microsoft.EntityFrameworkCore.Tools": "7.0.0",
-          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "6.0.10"
+          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "6.0.10",
+          "React.AspNet": "5.2.12"
         },
         "runtime": {
           "SchoolController.dll": {}
+        }
+      },
+      "AdvancedStringBuilder/0.1.0": {
+        "runtime": {
+          "lib/netstandard2.0/AdvancedStringBuilder.dll": {
+            "assemblyVersion": "0.1.0.0",
+            "fileVersion": "0.1.0.0"
+          }
         }
       },
       "Azure.Core/1.24.0": {
@@ -56,6 +69,63 @@
           "lib/net6.0/Humanizer.dll": {
             "assemblyVersion": "2.14.0.0",
             "fileVersion": "2.14.1.48190"
+          }
+        }
+      },
+      "JavaScriptEngineSwitcher.Core/3.19.0": {
+        "dependencies": {
+          "AdvancedStringBuilder": "0.1.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/JavaScriptEngineSwitcher.Core.dll": {
+            "assemblyVersion": "3.19.0.0",
+            "fileVersion": "3.19.0.0"
+          }
+        },
+        "resources": {
+          "lib/netstandard2.0/ru-RU/JavaScriptEngineSwitcher.Core.resources.dll": {
+            "locale": "ru-RU"
+          }
+        }
+      },
+      "JavaScriptEngineSwitcher.Extensions.MsDependencyInjection/3.19.0": {
+        "dependencies": {
+          "JavaScriptEngineSwitcher.Core": "3.19.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/JavaScriptEngineSwitcher.Extensions.MsDependencyInjection.dll": {
+            "assemblyVersion": "3.19.0.0",
+            "fileVersion": "3.19.0.0"
+          }
+        }
+      },
+      "JavaScriptEngineSwitcher.V8/3.20.7": {
+        "dependencies": {
+          "AdvancedStringBuilder": "0.1.0",
+          "JavaScriptEngineSwitcher.Core": "3.19.0",
+          "Microsoft.ClearScript.V8": "7.3.5"
+        },
+        "runtime": {
+          "lib/net5.0/JavaScriptEngineSwitcher.V8.dll": {
+            "assemblyVersion": "3.20.7.0",
+            "fileVersion": "3.20.7.0"
+          }
+        },
+        "resources": {
+          "lib/net5.0/ru-RU/JavaScriptEngineSwitcher.V8.resources.dll": {
+            "locale": "ru-RU"
+          }
+        }
+      },
+      "JSPool/4.0.0": {
+        "dependencies": {
+          "JavaScriptEngineSwitcher.Core": "3.19.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/JSPool.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
           }
         }
       },
@@ -129,6 +199,53 @@
           "lib/netstandard2.0/Microsoft.Build.Framework.dll": {
             "assemblyVersion": "15.1.0.0",
             "fileVersion": "17.0.0.52104"
+          }
+        }
+      },
+      "Microsoft.ClearScript.Core/7.3.5": {
+        "runtime": {
+          "lib/net5.0/ClearScript.Core.dll": {
+            "assemblyVersion": "7.3.5.0",
+            "fileVersion": "7.3.5.0"
+          }
+        }
+      },
+      "Microsoft.ClearScript.V8/7.3.5": {
+        "dependencies": {
+          "Microsoft.ClearScript.Core": "7.3.5",
+          "Microsoft.ClearScript.V8.ICUData": "7.3.5",
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "runtime": {
+          "lib/net5.0/ClearScript.V8.dll": {
+            "assemblyVersion": "7.3.5.0",
+            "fileVersion": "7.3.5.0"
+          }
+        }
+      },
+      "Microsoft.ClearScript.V8.ICUData/7.3.5": {
+        "runtime": {
+          "lib/netstandard1.0/ClearScript.V8.ICUData.dll": {
+            "assemblyVersion": "7.3.5.0",
+            "fileVersion": "7.3.5.0"
+          }
+        }
+      },
+      "Microsoft.ClearScript.V8.Native.linux-x64/7.3.5": {
+        "runtimeTargets": {
+          "runtimes/linux-x64/native/ClearScriptV8.linux-x64.so": {
+            "rid": "linux-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "Microsoft.ClearScript.V8.Native.win-x64/7.3.5": {
+        "runtimeTargets": {
+          "runtimes/win-x64/native/ClearScriptV8.win-x64.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
           }
         }
       },
@@ -1535,6 +1652,43 @@
           }
         }
       },
+      "React.AspNet/5.2.12": {
+        "dependencies": {
+          "React.AspNet.Middleware": "5.2.12",
+          "React.Core": "5.2.12"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/React.AspNet.dll": {
+            "assemblyVersion": "5.2.0.0",
+            "fileVersion": "5.2.12.29"
+          }
+        }
+      },
+      "React.AspNet.Middleware/5.2.12": {
+        "dependencies": {
+          "React.Core": "5.2.12"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/React.AspNet.Middleware.dll": {
+            "assemblyVersion": "5.2.0.0",
+            "fileVersion": "5.2.12.29"
+          }
+        }
+      },
+      "React.Core/5.2.12": {
+        "dependencies": {
+          "JSPool": "4.0.0",
+          "JavaScriptEngineSwitcher.Core": "3.19.0",
+          "Microsoft.Extensions.DependencyModel": "7.0.0",
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/React.Core.dll": {
+            "assemblyVersion": "5.2.0.0",
+            "fileVersion": "5.2.12.29"
+          }
+        }
+      },
       "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
       "runtime.fedora.23-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
       "runtime.fedora.24-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
@@ -2410,6 +2564,13 @@
       "serviceable": false,
       "sha512": ""
     },
+    "AdvancedStringBuilder/0.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IbN3r5whlJvi8MhCDPVpIb+NVScyUcKSdcJZrnoXFDyzPDISl3AbWouNBYIHRdZdfGuzqCQEhM1vkxbIKqQVaQ==",
+      "path": "advancedstringbuilder/0.1.0",
+      "hashPath": "advancedstringbuilder.0.1.0.nupkg.sha512"
+    },
     "Azure.Core/1.24.0": {
       "type": "package",
       "serviceable": true,
@@ -2430,6 +2591,34 @@
       "sha512": "sha512-lQKvtaTDOXnoVJ20ibTuSIOf2i0uO0MPbDhd1jm238I+U/2ZnRENj0cktKZhtchBMtCUSRQ5v4xBCUbKNmyVMw==",
       "path": "humanizer.core/2.14.1",
       "hashPath": "humanizer.core.2.14.1.nupkg.sha512"
+    },
+    "JavaScriptEngineSwitcher.Core/3.19.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cFZG0+8OzRP7xDgmJpVwAA9V04Y3uWlAyjP+wx801crLfZr/nw1ohJtH8kBK+m9CIUHfyR1iw2b2F8q6WW2O4w==",
+      "path": "javascriptengineswitcher.core/3.19.0",
+      "hashPath": "javascriptengineswitcher.core.3.19.0.nupkg.sha512"
+    },
+    "JavaScriptEngineSwitcher.Extensions.MsDependencyInjection/3.19.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0DbdX2JnVhfP3zcdrW679i+rNCn7Lv1ruIrKQywxr7YfIZpRyXM6gBa4owKA2JLwbr72U1YdtTGe2X5E3oowCw==",
+      "path": "javascriptengineswitcher.extensions.msdependencyinjection/3.19.0",
+      "hashPath": "javascriptengineswitcher.extensions.msdependencyinjection.3.19.0.nupkg.sha512"
+    },
+    "JavaScriptEngineSwitcher.V8/3.20.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-RH4dzdqen/MyL2roFACMHf0IzY+d5fETq6u8eX/ieydPOm2XDU1b010kIzoamcylrXdF2LiaiYcYHeL1F35yGA==",
+      "path": "javascriptengineswitcher.v8/3.20.7",
+      "hashPath": "javascriptengineswitcher.v8.3.20.7.nupkg.sha512"
+    },
+    "JSPool/4.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-r+AeQ9R50HxU+HLqASYvZz6Mvg7RmZwEnCVhQ+xGYVexFjYYqlkW6by9HaflGaHjy+/28YLbb3qxDLRJ3AbZGQ==",
+      "path": "jspool/4.0.0",
+      "hashPath": "jspool.4.0.0.nupkg.sha512"
     },
     "MessagePack/2.1.152": {
       "type": "package",
@@ -2479,6 +2668,41 @@
       "sha512": "sha512-XbFA0z+6Ws2pNeRXYcDF3lKlNgRoSGMm2Q5HKzZD+EbwYMKPKrl/BJnnkMuDJHU0KravYHfhzBnLLJpPeZ3E7A==",
       "path": "microsoft.build.framework/17.0.0",
       "hashPath": "microsoft.build.framework.17.0.0.nupkg.sha512"
+    },
+    "Microsoft.ClearScript.Core/7.3.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vMYhLXJQrudkVocM23MMx3vWiT5szjymN4Afka+1WmGYL/DAue/DqkKQq37uz/4TlS++mv7V65OgRSo5wr0ZWQ==",
+      "path": "microsoft.clearscript.core/7.3.5",
+      "hashPath": "microsoft.clearscript.core.7.3.5.nupkg.sha512"
+    },
+    "Microsoft.ClearScript.V8/7.3.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-u0jIL8FQTy4proJr+yOSfrHpRE9ksLy1qh7Yd1q9gj8O1H0tzB8pREevwjiWnCRRi+AdcryQbrA2yG4TNGI88w==",
+      "path": "microsoft.clearscript.v8/7.3.5",
+      "hashPath": "microsoft.clearscript.v8.7.3.5.nupkg.sha512"
+    },
+    "Microsoft.ClearScript.V8.ICUData/7.3.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+uRBM08yE31cqpAZHQFEUxCmHRlDJT3F76YqdQWwChPyfLbBOEkiiZvjkwfP5Cvez8ONs5nJ9JK2wlEnhHX4Hw==",
+      "path": "microsoft.clearscript.v8.icudata/7.3.5",
+      "hashPath": "microsoft.clearscript.v8.icudata.7.3.5.nupkg.sha512"
+    },
+    "Microsoft.ClearScript.V8.Native.linux-x64/7.3.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FbUrelmD1hxNpN1WNNOKseSyUC/xqdTqMHYfAyjLuOBbxlL86w7yLQi1ObEVIIeLJ4rEqmWcsWDtCAOiQvBfVg==",
+      "path": "microsoft.clearscript.v8.native.linux-x64/7.3.5",
+      "hashPath": "microsoft.clearscript.v8.native.linux-x64.7.3.5.nupkg.sha512"
+    },
+    "Microsoft.ClearScript.V8.Native.win-x64/7.3.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LOe/o6lUb6v+sq8t+Q2X69pI54w+Mij7YmKfIq8MjtrbC0kzLilzOPfnDeJHAXFXBT3EfPf/Bz5TWmlBZbOH0A==",
+      "path": "microsoft.clearscript.v8.native.win-x64/7.3.5",
+      "hashPath": "microsoft.clearscript.v8.native.win-x64.7.3.5.nupkg.sha512"
     },
     "Microsoft.CodeAnalysis.Analyzers/3.3.2": {
       "type": "package",
@@ -2983,6 +3207,27 @@
       "sha512": "sha512-+o507LXjsN1YVAgmpqKCQZ70cLsXDoVmR8H0Wgy0muiFnOhkXN2+a6PGFBAIuA7qJch/umTYu1hp7Dlh1Qcrgg==",
       "path": "nuget.versioning/6.2.1",
       "hashPath": "nuget.versioning.6.2.1.nupkg.sha512"
+    },
+    "React.AspNet/5.2.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-98zc2aIyA4gef24O+NbdODnpXTSq9VPYgT53JxFC0U5iptW5tmct2OghbXyJyMZrh7J68V9pxhdo1y7lWmMGsQ==",
+      "path": "react.aspnet/5.2.12",
+      "hashPath": "react.aspnet.5.2.12.nupkg.sha512"
+    },
+    "React.AspNet.Middleware/5.2.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pY6Ux6Xy8/y5kP4apskU7sMf4ZjBoMipSsIwH/k0XYleBjCPGi+MjSMrE2T1CGHr2eKqRG5ahWPmC6VPKzwKJQ==",
+      "path": "react.aspnet.middleware/5.2.12",
+      "hashPath": "react.aspnet.middleware.5.2.12.nupkg.sha512"
+    },
+    "React.Core/5.2.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UqaxnMqVhQDLLNkIR4cNwJAR0lxdT8IwYl6iqXvw9+60uEcOXtbZIlD5TIHVsrenBaovNNsqJwE1ZqB/vEo+lg==",
+      "path": "react.core/5.2.12",
+      "hashPath": "react.core.5.2.12.nupkg.sha512"
     },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
       "type": "package",

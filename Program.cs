@@ -1,4 +1,7 @@
+using JavaScriptEngineSwitcher.Extensions.MsDependencyInjection;
+using JavaScriptEngineSwitcher.V8;
 using Microsoft.EntityFrameworkCore;
+using React.AspNet;
 using SchoolController.Models;
 
 WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
@@ -12,6 +15,13 @@ builder.Services.AddDbContext<SchoolContext>(options =>
 #pragma warning restore
     _ = options.UseSqlServer(connectstring);
 });
+builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+builder.Services.AddReact();
+
+// Make sure a JS engine is registered, or you will get an error!
+builder.Services.AddJsEngineSwitcher(options => options.DefaultEngineName = V8JsEngine.EngineName)
+  .AddV8();
+
 WebApplication app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -23,6 +33,12 @@ if (!app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+app.UseReact(config =>
+            {
+                config.AddScript("~/Scripts/HelloWorld.jsx");
+            });
+
 app.UseStaticFiles();
 
 app.UseRouting();

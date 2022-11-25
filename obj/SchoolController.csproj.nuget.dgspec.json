@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/home/vulanhcuong/Documents/Git/SchoolController/SchoolController.csproj": {}
+    "O:\\Git\\SchoolController\\SchoolController.csproj": {}
   },
   "projects": {
-    "/home/vulanhcuong/Documents/Git/SchoolController/SchoolController.csproj": {
+    "O:\\Git\\SchoolController\\SchoolController.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/vulanhcuong/Documents/Git/SchoolController/SchoolController.csproj",
+        "projectUniqueName": "O:\\Git\\SchoolController\\SchoolController.csproj",
         "projectName": "SchoolController",
-        "projectPath": "/home/vulanhcuong/Documents/Git/SchoolController/SchoolController.csproj",
-        "packagesPath": "/home/vulanhcuong/.nuget/packages/",
-        "outputPath": "/home/vulanhcuong/Documents/Git/SchoolController/obj/",
+        "projectPath": "O:\\Git\\SchoolController\\SchoolController.csproj",
+        "packagesPath": "C:\\Users\\VuLanhCuong\\.nuget\\packages\\",
+        "outputPath": "O:\\Git\\SchoolController\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/vulanhcuong/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\VuLanhCuong\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -96,7 +98,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.403/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
